@@ -74,8 +74,8 @@ CREATE TABLE `chat_users` (
 --
 
 INSERT INTO `chat_users` (`userid`, `username`, `password`, `avatar`, `current_session`, `online`) VALUES
-(1, 'Diegody', 'admin', 'user1.jpg', 2, 1),
-(2, 'Willy', 'user', 'user2.jpg', 1, 1);
+(1, 'Admin', 'admin', 'user1.jpg', 2, 1),
+(2, 'User', 'user', 'user2.jpg', 1, 1);
 
 --
 -- Índices para tablas volcadas
